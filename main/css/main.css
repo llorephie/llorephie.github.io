@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Ubuntu'), url('../fonts/Ubuntu.woff2') format('woff2'), url('../fonts/Ubuntu.woff') format('woff');
+}
+
 html {
     position: relative;
     min-height: 100%;
@@ -5,6 +12,7 @@ html {
 body {
     /* Margin bottom by footer height */
     margin-bottom: 60px;
+	font-family: 'Ubuntu', sans-serif;
 }
 body > .container {
     padding: 60px 15px 0;
