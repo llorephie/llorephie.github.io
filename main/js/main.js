@@ -1,13 +1,13 @@
 function getStylesheet() {
     var currentTime = new Date().getHours();
     if (0 <= currentTime && currentTime < 7) {
-        document.write("<link rel='stylesheet' href='/_main/css/solarized-dark.css' />");
+        document.write("<link rel='stylesheet' href='/main/css/solarized-dark.css' />");
     }
     if (7 <= currentTime && currentTime < 22) {
-        document.write("<link rel='stylesheet' href='/_main/css/solarized-light.css' />");
+        document.write("<link rel='stylesheet' href='/main/css/solarized-light.css' />");
     }
     if (22 <= currentTime && currentTime <= 24) {
-        document.write("<link rel='stylesheet' href='/_main/css/solarized-dark.css' />");
+        document.write("<link rel='stylesheet' href='/main/css/solarized-dark.css' />");
     }
 }
 getStylesheet();
