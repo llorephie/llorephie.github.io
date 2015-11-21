@@ -1,4 +1,3 @@
-# Llorephie's GitHub Website
-### Just for fun and testing Github Pages.
-
-Here comes news about my public development activities. Maybe. I don't sure.
+### Llorephie website - main template
+#### This repo contains default static template for all my front-ends.
+#### Use it as you want :)
