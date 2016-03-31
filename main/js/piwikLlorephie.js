@@ -2,7 +2,7 @@ var _paq = _paq || [];
 _paq.push(['trackPageView']);
 _paq.push(['enableLinkTracking']);
 (function() {
-    var u = "//llorephie.org/piwik/";
+    var u = "//analytics.llorephie.org/";
     _paq.push(['setTrackerUrl', u + 'piwik.php']);
     _paq.push(['setSiteId', 1]);
     var d = document,
