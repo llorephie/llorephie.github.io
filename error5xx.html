@@ -27,33 +27,34 @@
 </head>
 
 <body>
-    <style>
-    body{
-        background-image:url("/main/img/failture_pattern.png");
-        background-repeat:repeat;
-        height:200px;
-    }
+    <style scoped>
+        body {
+            background-image: url("/main/img/failture_pattern.png");
+            background-repeat: repeat;
+            height: 200px;
+        }
     </style>
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand">Llorephie</a>
-            </div>
-            <div id="navbar" class="collapse navbar-collapse">
-                <ul class="nav navbar-nav">
-                    <li><a href="/">Homepage</a></li>
-                    <li><a href="//blog.llorephie.org/">My blog</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
     <div class="container">
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand">Llorephie</a>
+                </div>
+                <div id="navbar" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="/">Homepage</a></li>
+                        <li><a href="//blog.llorephie.org/">My blog</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
         <div class="page-header">
             <h1>Server returned an error: <code>5xx (server failture)</code></h1>
         </div>
@@ -63,9 +64,12 @@
     </div>
     <footer class="footer">
         <div class="container">
-            <p class="text-muted">&copy; Maxim Martyanov 2016. Published under <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons «Attribution-ShareAlike» 4.0 Worldwide</a>.</p>
+            <span class="text-muted">&copy; Maxim Martyanov 2016. Published under <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons «Attribution-ShareAlike» 4.0 Worldwide</a>.</span>
         </div>
     </footer>
+    <script src="/main/js/jquery.min.js"></script>
+    <script src="/main/js/main.js"></script>
+    <script src="/main/js/bootstrap.min.js"></script>
     <!-- Third-party scripts.
  =================================================================== -->
     <!-- Piwik {literal} -->
