@@ -13,7 +13,7 @@
     <link rel="icon" href="/favicon.ico">
     <link rel="apple-touch-icon" href="/logo.og.png" />
 
-    <title>@Llorephie - Homepage</title>
+    <title>Llorephie - Homepage</title>
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="/main/css/bootstrap.min.css" />
@@ -27,17 +27,10 @@
     <![endif]-->
 </head>
 
-<body>
-    <style scoped>
-        body {
-            background-image: url("/main/img/main_pattern.png");
-            background-repeat: repeat;
-            height: 200px;
-        }
-    </style>
-    <div class="container">
+<body style="background-image: url('/main/img/main_pattern.png'); background-repeat: repeat;">
+    <div class="container hidden-print">
         <nav class="navbar navbar-default">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                         <span class="sr-only">Toggle navigation</span>
@@ -48,71 +41,142 @@
                     <a class="navbar-brand">@Llorephie</a>
                 </div>
                 <div id="navbar" class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav">
-                        <li><a href="//blog.llorephie.org/">My blog</a></li>
+                    <ul class="nav navbar-nav navbar-left">
+                        <li><a href="https://blog.llorephie.org/">My blog</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-globe"></i> Contact me <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="https://vk.com/llorephie" rel="nofollow" target="_blank"><i class="fa fa-vk"></i> VK.com</a></li>
+                                <li><a href="https://twitter.com/llorephie"><i class="fa fa-twitter"></i> Twitter</a></li>
+                                <li><a href="https://fb.me/llorephie"><i class="fa fa-facebook"></i> Facebook</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="https://github.com/llorephie"><i class="fa fa-github"></i> GitHub</a></li>
+                                <li><a href="https://developer.mozilla.org/profiles/Llorephie"><i class="fa fa-firefox"></i> MDN</a></li>
+                                <li><a href="https://www.linkedin.com/in/llorephie"><i class="fa fa-linkedin"></i> LinkedIn</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="https://telegram.me/llorephie"><i class="fa fa-paper-plane"></i> Telegram</a></li>
+                                <li><a href="https://toxme.io/u/llorephie"><i class="fa fa-lock"></i> Tox</a></li>
+                                <li><a href="mailto:pingback@llorephie.org"><i class="fa fa-envelope-o"></i> E-Mail</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-globe"></i> Donate me <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="https://paypal.me/Llorephie"><i class="fa fa-lg fa-paypal"></i> PayPal</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="bitcoin:1NiNPDu6YTZ3HvFeCxjnkQLhzci1FxUCdS"><i class="fa fa-lg fa-bitcoin"></i> Bitcoin: 1NiNPDu6YTZ3HvFeCxjnkQLhzci1FxUCdS</a></li>
+                                <li><a class="disabled"><i class="fa fa-lg fa-bitcoin"></i> Ethereum: 0x9f4E00a9368fff51e80c46a5F9cd3B20029590c0</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="#locale-en">English</a></li>
+                        <li><a href="#locale-ru">Русский</a></li>
+                        <li><a href="#locale-cz">Čeština</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
 
-        <div class="row">
+        <div class="row hidden-print">
             <div class="col-md-4">
                 <div>
                     <img alt="Current Gravatar" src="https://secure.gravatar.com/avatar/8e437ab107040327e74b38a3b09aa30a?s=128" class="img-thumbnail center-block">
-                    <p class="lead" style="text-align: center;">Hi there! I'm Maxim Martyanov (aka @Llorephie), and here is some my contact info:</p>
-                    <dl>
-                        <dt>Social networks</dt>
-                        <dd>
-                            <ul class="list-inline pagination-centered">
-                                <li><a href="https://twitter.com/llorephie"><i class="fa fa-lg fa-twitter"></i> Twitter</a></li>
-                                <li><a href="https://fb.me/llorephie"><i class="fa fa-lg fa-facebook"></i> Facebook</a></li>
-                                <li><a href="https://vk.com/llorephie"><i class="fa fa-lg fa-vk"></i> VKontakte</a></li>
-                            </ul>
-                        </dd>
-                        <dt>Developer networks</dt>
-                        <dd>
-                            <ul class="list-inline">
-                                <li><a href="https://github.com/llorephie"><i class="fa fa-lg fa-github"></i> GitHub</a></li>
-                                <li><a href="https://developer.mozilla.org/profiles/Llorephie"><i class="fa fa-lg fa-firefox"></i> MDN</a></li>
-                                <li><a href="https://www.linkedin.com/in/llorephie"><i class="fa fa-lg fa-linkedin"></i> LinkedIn</a></li>
-                            </ul>
-                        </dd>
-                        <dt>Direct contact</dt>
-                        <dd>
-                            <ul class="list-inline">
-                                <li><a href="https://telegram.me/llorephie"><i class="fa fa-lg fa-paper-plane"></i> Telegram</a></li>
-                                <li><a href="https://toxme.io/u/llorephie"><i class="fa fa-lg fa-lock"></i> Tox</a></li>
-                                <li><a href="mailto:pingback@llorephie.org"><i class="fa fa-lg fa-envelope-o"></i> E-Mail</a></li>
-                            </ul>
-                        </dd>
-                        <dt>Donate me ^.^</dt>
-                        <dd>
-                            <ul class="list-inline">
-                                <li><a href="https://paypal.me/Llorephie"><i class="fa fa-lg fa-paypal"></i> PayPal</a></li>
-                                <li><a href="bitcoin:1NiNPDu6YTZ3HvFeCxjnkQLhzci1FxUCdS"><i class="fa fa-lg fa-bitcoin"></i> Bitcoin</a></li>
-                                <li><a href="ethereum:0x9f4E00a9368fff51e80c46a5F9cd3B20029590c0"><i class="fa fa-lg fa-bitcoin"></i> Ethereum</a></li>
-                            </ul>
-                        </dd>
-                    </dl>
+                    <br>
+                    <p class="lead">Hi there! I'm Maxim Llorephie</p>
+                    <p>There is my homepage with random stuff. I don't really know why I've bought this domain name, but shit happens - this webpage on the web!</p>
+                    <p class="text-danger"><strong>This page is brief summary about me on the Web, and may differs with actual real life info. For resume <abbr title="Just print in PDF">check out</abbr> <a class="alert-link" href="javascript:print()">printable</a> version of this page.</strong></p>
                 </div>
             </div>
             <div class="col-md-8">
-                <div>
-                    <p class="lead">Here are some my public works:</p>
-                    <p class="bg-success" style="padding: 15px;">Llorephie Analytics (Powered by <a href="//piwik.org/">Piwik</a>) - Web/App analytics platform. <a class="pull-right" href="//analytics.llorephie.org/"><i class="fa fa-circle-o-notch fa-spin"></i> Access here</a></p>
-                    <p class="bg-success" style="padding: 15px;">Reanimator MCC - Website development and hosting.<a class="pull-right" href="//reanimator-mcc.ru/"><i class="fa fa-refresh fa-spin"></i> View here</a></p>
-                    <p class="bg-success" style="padding: 15px;">Guild Black Templars - Website development, system administration.<a class="pull-right" href="//guild-bt.ru/"><i class="fa fa-refresh fa-spin"></i> View here</a></p>
-                    <p class="bg-warning" style="padding: 15px;">The Elder Scrolls: Minecraft - Website development (merged with Guild Black Templars).<a class="pull-right" href="//tesmc.ru/"><i class="fa fa-refresh fa-spin"></i> View here</a></p>
-                    <p class="bg-info" style="padding: 15px;">The Geek Journal (RU) - Website development, system administration (in development).<a class="pull-right" href="//thegeekjournal.ru/"><i class="fa fa-cog fa-spin"></i> View here</a></p>
-                    <p class="bg-primary" style="padding: 15px;">Oak JS - CMS, written in NodeJS (in development).<a class="pull-right" href="https://github.com/llorephie/oakjs/" style="color: inherit;"><i class="fa fa-cog fa-spin"></i> Contribute here</a></p>
-                    <p class="bg-danger" style="padding: 15px;">Telegram service bot (in development, closed source).<a class="pull-right" href="https://telegram.me/Llorebot"><i class="fa fa-cog fa-spin"></i> Contact here</a></p>
+                <ul class="nav nav-tabs nav-justified">
+                    <li role="presentation" class="active">
+                        <a data-toggle="tab" href="#profile">My profile</a>
+                    </li>
+                    <li role="presentation">
+                        <a data-toggle="tab" href="#projects">Public available projects and works</a>
+                    </li>
+                    <li role="presentation">
+                        <a data-toggle="tab" href="#feed"><i class="fa fa-rss"> </i> Feed</a>
+                    </li>
+                </ul>
+                <div role="tabpanel">
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane tabs_navigation active" id="profile">
+                            <br>
+                            <p>Hi! I'm Maxim Martyanov, or, as I known on the Web, Maxim Llorephie. I'm russian student, FOSS enthusiast (meanwhile Windows hater, yep), beginner developer.</p>
+                            <span>Short list of skills learned since January 31, 1999:</span>
+                            <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#skilllist" aria-expanded="false" aria-controls="skilllist">Show <span class="caret"></span></button>
+                            <div id="skilllist" class="collapse">
+                                <ul>
+                                    <li>Languages
+                                        <ul>
+                                            <li>Russian: native;</li>
+                                            <li>English: reading, fan translations, slow speak;</li>
+                                            <li>Czech: in progress (beginner).</li>
+                                        </ul>
+                                    </li>
+                                    <li>Education: GCSE.</li>
+                                    <li>System administration skills:
+                                        <ul>
+                                            <li>Linux: MySQL servers (Community, MariaDB, Percona), MongoDB, Redis, Memcached;</li>
+                                            <li>Linux: LEMP (NGINX Community, php-fpm, MySQL), LAMP (NGINX + Apache2 + mod_php + MySQL);</li>
+                                            <li>Linux: Virtualisation (KVM via virsh, LXC);</li>
+                                            <li>Linux: IPv4/<a href="https://ipv6.he.net/certification/scoresheet.php?pass_name=llorephie">IPv6 routing, sertified IPv6 by Hurricane Electrics at 2015</a>;</li>
+                                            <li>Linux: OpenVPN setup;</li>
+                                            <li>Linux: Client support;</li>
+                                            <li>Windows Server: Basic deployment and configuration, Active Domain;</li>
+                                            <li>Windows: Client support;</li>
+                                            <li>Windows-to-Linux migration in production.</li>
+                                        </ul>
+                                    </li>
+                                    <li>Development skills:
+                                        <ul>
+                                            <li>Base knowlegde of C, C++, Python, Golang, Java, JavaScript;</li>
+                                            <li>Web: Valid (W3C) HTML5, CSS3, accessibility, offline applications (<a href="https://github.com/llorephie/oakjs">OakJS</a> in-progress), Twitter Bootstrap, AngularJS (beginner)</li>
+                                            <li>Desktop (crossplatform): Qt5 (C++).</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <br>
+                            <span>As I've mentioned that I'm GNU/Linux user - there is my setup:</span>
+                            <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#mylinuxinfo" aria-expanded="false" aria-controls="mylinuxinfo">Show <span class="caret"></span></button>
+                            <div id="mylinuxinfo" class="collapse">
+                                <ul>
+                                    <li>Preferred distro: <abbr title="Yep, I like this distro. Lightweight, binary. I can use Gentoo, build LFS and fuck with Ubuntu and OpenSUSE, I can use Fedora as well as I can use Debian. But I like vanilla package sets, and Arch User Repository can combine all distros in one.">Arch Linux</abbr>;</li>
+                                    <li>Preferred shell: <abbr title="Or /bin/bash as well. Fish can do awesome things after install - others need configuration sets. I don't like ZSH, yep, all needed stuff I can run with bash -c ''">fish</abbr> with <a href="https://github.com/oh-my-fish/theme-cmorrell.com">cmorrell.com theme</a>                                        and with <a href="http://fisherman.sh/">fisherman</a> manager;</li>
+                                    <li>Preferred web-browser: <abbr title="Why... Not Chromium? I use it too. But only in development purposes. Mozilla Firefox is much more lightweight than Chromium (I use about 6 tabs per session, yep). Chromium has awesome web-apps, that can be integraded in system, and I use some of them. But for daytime usage I prefer Mozilla Firefox.">Mozilla Firefox</abbr>;</li>
+                                    <li>Mail-based stuff: <abbr title="'Mail clients? Are you stuck in 2004?' - Nope, it is really awesome. GPG/PGP signs, S/MIME signs, encryption, decryption, email sender validation, custom design in email... Can any webmail do this stuff? Can any webmail perform one-time check of all new mail in about 100 mailboxes?">Mozilla Thunderbird</abbr>                                        or <a href="http://www.rainloop.net/">Rainloop Mail</a> <abbr title="'But... 100 mailboxes, no?' - it supports OpenPGP via JavaScript, and all stuff is client-side. And it is open-source. I don't like it, but I have to when I'm not at home.">Web-interface</abbr></li>
+                                    <li>Preferred editor: <abbr title="In past I had to perform many operations on server via ssh. So...">vim</abbr> (vimrc: <a href="https://github.com/amix/vimrc">https://github.com/amix/vimrc</a>)/<abbr title="Why not Sublime Text? Not free, propietary and all similar shit. Yes, it is little laggy, but ok. And plugin repository is awesome.">GitHub Atom</abbr>;</li>
+                                    <li>Preferred DE: <abbr title="Lightweight, customizable. Why not Openbox, awesome or i3? They are too geeky.">xfce4</abbr>; WM: xfwm;</li>
+                                </ul>
+
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane tabs_navigation" id="projects">
+                            <p class="bg-success" style="padding: 15px;">Llorephie Analytics (Powered by <a href="//piwik.org/">Piwik</a>) - Web/App analytics platform. <a class="pull-right" href="//analytics.llorephie.org/"><i class="fa fa-circle-o-notch fa-spin"></i> Access here</a></p>
+                            <p class="bg-success" style="padding: 15px;">Reanimator MCC - Website development and hosting.<a class="pull-right" href="//reanimator-mcc.ru/"><i class="fa fa-refresh fa-spin"></i> View here</a></p>
+                            <p class="bg-success" style="padding: 15px;">Guild Black Templars - Website development, system administration.<a class="pull-right" href="//guild-bt.ru/"><i class="fa fa-refresh fa-spin"></i> View here</a></p>
+                            <p class="bg-warning" style="padding: 15px;">The Elder Scrolls: Minecraft - Website development (merged with Guild Black Templars).<a class="pull-right" href="//tesmc.ru/"><i class="fa fa-refresh fa-spin"></i> View here</a></p>
+                            <p class="bg-info" style="padding: 15px;">The Geek Journal (RU) - Website development, system administration (in development).<a class="pull-right" href="//thegeekjournal.ru/"><i class="fa fa-cog fa-spin"></i> View here</a></p>
+                            <p class="bg-info" style="padding: 15px;">Oak JS - CMS, written in NodeJS (in development).<a class="pull-right" href="https://github.com/llorephie/oakjs/" style="color: inherit;"><i class="fa fa-cog fa-spin"></i> Contribute here</a></p>
+                            <p class="bg-info" style="padding: 15px;">Telegram bot (in development, closed source).<a class="pull-right" href="https://telegram.me/Llorebot"><i class="fa fa-cog fa-spin"></i> Contact here</a></p>
+                        </div>
+                        <div role="tabpanel" class="tab-pane tabs_navigation" id="feed">
+                            <p class="lead text-warning">Feed page under construction</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <footer class="footer">
-        <div class="container">
-            <span class="text-muted">&copy; Maxim Martyanov 2016. Published under <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons «Attribution-ShareAlike» 4.0 Worldwide</a>.</span>
+    <footer class="footer navbar-fixed-bottom">
+        <div class="container hidden-print">
+            <span class="text-muted">&copy; Maxim Llorephie 2016. Published under <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons «Attribution-ShareAlike» 4.0 Worldwide</a>.</span>
+        </div>
+        <div class="container visible-print-inline">
+            <span class="text-muted">&copy; Nickolay Martyanov. Last updated: June 11, 2016 on https://llorephie.org</span>
         </div>
     </footer>
 
