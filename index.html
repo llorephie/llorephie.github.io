@@ -1,198 +1,452 @@
 <!DOCTYPE html>
-<html lang="en">
+<html prefix="og: http://ogp.me/ns#" lang="ru">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="llorephie, freelance, llorephie ltd, llorephie limited, llorephie homepage, homepage">
-    <meta name="description" content="Personal website of Maxim Martyanov aka Llorephie">
-    <meta name="robots" content="index, follow">
-    <meta name="author" content="Maxim Martyanov <me@llorephie.org>">
-    <link rel="canonical" href="https://llorephie.org/">
-    <link rel="icon" href="/favicon.ico">
-    <link rel="apple-touch-icon" href="/logo.og.png" />
+    <!-- Common meta-tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Немного о @Llorephie" />
+    <meta name="author" content="Maxim Martyanov <web@llorephie.me>" />
+    <meta name="keywords" content="llorephie, freelance, llorephie ltd, llorephie limited, llorephie homepage, homepage" />
+    <meta name="robots" content="index, follow" />
 
-    <title>Llorephie - Homepage</title>
+    <!-- OpenGraph meta-tags -->
+    <meta property="og:title" content="Максим @Llorephie Мартьянов" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://llorephie.me" />
+    <meta property="og:description" content="Немного о @Llorephie" />
+    <meta property="og:image" content="/logo.og.png" />
+    <meta property="og:site_name" content="Максим @Llorephie Мартьянов" />
+    <meta property="og:locale" content="ru_RU" />
 
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="/main/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="/main/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="/main/css/main.css" />
+    <!-- Additional meta tags for extended browser behavior -->
+    <meta name="theme-color" content="#5e4d53">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <!-- Common link-tags -->
+    <link rel="canonical" href="https://llorephie.me" />
+    <link rel="icon" sizes="64x64" type="image/x-icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="512x512" type="image/png" href="/logo.og.png" />
+
+    <!-- Stylesheets link-tags -->
+    <link rel="stylesheet" type="text/css" media="all" href="/main/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="/main/css/ekko-lightbox.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="/main/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="/main/css/main.css" />
+    <link rel="stylesheet" type="text/css" media="print" href="/main/css/print.css" />
+
+    <title>Максим @Llorephie Мартьянов</title>
 </head>
 
-<body style="background-image: url('/main/img/main_pattern.png'); background-repeat: repeat;">
-    <div class="container hidden-print">
-        <nav class="navbar navbar-default">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand">@Llorephie</a>
-                </div>
-                <div id="navbar" class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav navbar-left">
-                        <li><a href="https://blog.llorephie.org/">My blog</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-globe"></i> Contact me <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="https://vk.com/llorephie" rel="nofollow" target="_blank"><i class="fa fa-vk"></i> VK.com</a></li>
-                                <li><a href="https://twitter.com/llorephie"><i class="fa fa-twitter"></i> Twitter</a></li>
-                                <li><a href="https://fb.me/llorephie"><i class="fa fa-facebook"></i> Facebook</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li><a href="https://github.com/llorephie"><i class="fa fa-github"></i> GitHub</a></li>
-                                <li><a href="https://developer.mozilla.org/profiles/Llorephie"><i class="fa fa-firefox"></i> MDN</a></li>
-                                <li><a href="https://www.linkedin.com/in/llorephie"><i class="fa fa-linkedin"></i> LinkedIn</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li><a href="https://telegram.me/llorephie"><i class="fa fa-paper-plane"></i> Telegram</a></li>
-                                <li><a href="https://toxme.io/u/llorephie"><i class="fa fa-lock"></i> Tox</a></li>
-                                <li><a href="mailto:pingback@llorephie.org"><i class="fa fa-envelope-o"></i> E-Mail</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-globe"></i> Donate me <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="https://paypal.me/Llorephie"><i class="fa fa-lg fa-paypal"></i> PayPal</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li><a href="bitcoin:1NiNPDu6YTZ3HvFeCxjnkQLhzci1FxUCdS"><i class="fa fa-lg fa-bitcoin"></i> Bitcoin: 1NiNPDu6YTZ3HvFeCxjnkQLhzci1FxUCdS</a></li>
-                                <li><a class="disabled"><i class="fa fa-lg fa-bitcoin"></i> Ethereum: 0x9f4E00a9368fff51e80c46a5F9cd3B20029590c0</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="#locale-en">English</a></li>
-                        <li><a href="#locale-ru">Русский</a></li>
-                        <li><a href="#locale-cz">Čeština</a></li>
-                    </ul>
-                </div>
+<body data-spy="scroll" data-target="#navbar" data-offset="100">
+    <!-- Markup for webpage view (not visible in printed page) -->
+    <div id="notprintable" class="d-print-none">
+        <!-- Intro viewport -->
+        <section id="welcome-overlay" class="welcome-overlay d-flex">
+            <header class="my-auto mx-auto">
+                <img class="rounded-circle" alt="Текущий Gravatar" src="https://secure.gravatar.com/avatar/8e437ab107040327e74b38a3b09aa30a?size=200" />
+                <h1>Максим @Llorephie</h1>
+                <h3>Фуррь, разработчик, системный администратор Linux <small class="text-muted">¯\_(ツ)_/¯</small></h3>
+                <span class="fa fa-5x fa-angle-double-down"></span>
+            </header>
+        </section>
+        <!-- Navigation -->
+        <nav class="navbar navbar-dark bg-dark navbar-expand-md">
+            <a class="navbar-brand" href="#">@Llorephie :// </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="//blog.llorephie.me/">Блог</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownDonate" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Задонатить мне на кофе</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownDonate">
+                            <h6 class="dropdown-header">Криптовалюты</h6>
+                            <a class="dropdown-item" href="bitcoin:1LLorephiFxVD9grJsfrf6q1VyMJmQSdtE">Bitcoin: 1LLorephiFxVD9grJsfrf6q1VyMJmQSdtE</a>
+                            <a class="dropdown-item">Ethereum (ETH): 0x9f4E00a9368fff51e80c46a5F9cd3B20029590c0</a>
+                            <a class="dropdown-item">DASH: XxqmzBKDdJSGw472vPU7Vo1ART2hHff1vc</a>
+                            <div class="dropdown-divider"></div>
+                            <h6 class="dropdown-header">PayPal не принимаю. Просто потому что они мудаки.</h6>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="navbar-nav my-2 my-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#welcome-overlay">#</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Обо мне</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Фотогалерея</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Навыки</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hire">Работа</a>
+                    </li>
+                </ul>
             </div>
         </nav>
 
-        <div class="row hidden-print">
-            <div class="col-md-4">
-                <div>
-                    <img alt="Current Gravatar" src="https://secure.gravatar.com/avatar/8e437ab107040327e74b38a3b09aa30a?s=128" class="img-thumbnail center-block">
-                    <br>
-                    <p class="lead">Hi there! I'm Maxim Llorephie</p>
-                    <p>There is my homepage with random stuff. I don't really know why I've bought this domain name, but shit happens - this webpage on the web!</p>
-                    <p class="text-danger"><strong>This page is brief summary about me on the Web, and may differs with actual real life info. For resume <abbr title="Just print in PDF">check out</abbr> <a class="alert-link" href="javascript:print()">printable</a> version of this page.</strong></p>
+        <!-- Content -->
+        <section class="container">
+            <section id="about" class="row mt-5">
+                <div class="col-sm-4">
+                    <h2 class="block-title"><span class="text-muted">#&nbsp;</span>Обо мне</h2>
                 </div>
-            </div>
-            <div class="col-md-8">
-                <ul class="nav nav-tabs nav-justified">
-                    <li role="presentation" class="active">
-                        <a data-toggle="tab" href="#profile">My profile</a>
-                    </li>
-                    <li role="presentation">
-                        <a data-toggle="tab" href="#projects">Public available projects and works</a>
-                    </li>
-                    <li role="presentation">
-                        <a data-toggle="tab" href="#feed"><i class="fa fa-rss"> </i> Feed</a>
-                    </li>
-                </ul>
-                <div role="tabpanel">
-                    <div class="tab-content">
-                        <div role="tabpanel" class="tab-pane tabs_navigation active" id="profile">
-                            <br>
-                            <p>Hi! I'm Maxim Martyanov, or, as I known on the Web, Maxim Llorephie. I'm russian student, FOSS enthusiast (meanwhile Windows hater, yep), beginner developer.</p>
-                            <span>Short list of skills learned since January 31, 1999:</span>
-                            <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#skilllist" aria-expanded="false" aria-controls="skilllist">Show <span class="caret"></span></button>
-                            <div id="skilllist" class="collapse">
-                                <ul>
-                                    <li>Languages
-                                        <ul>
-                                            <li>Russian: native;</li>
-                                            <li>English: reading, fan translations, slow speak;</li>
-                                            <li>Czech: in progress (beginner).</li>
-                                        </ul>
-                                    </li>
-                                    <li>Education: GCSE.</li>
-                                    <li>System administration skills:
-                                        <ul>
-                                            <li>Linux: MySQL servers (Community, MariaDB, Percona), MongoDB, Redis, Memcached;</li>
-                                            <li>Linux: LEMP (NGINX Community, php-fpm, MySQL), LAMP (NGINX + Apache2 + mod_php + MySQL);</li>
-                                            <li>Linux: Virtualisation (KVM via virsh, LXC);</li>
-                                            <li>Linux: IPv4/<a href="https://ipv6.he.net/certification/scoresheet.php?pass_name=llorephie">IPv6 routing, sertified IPv6 by Hurricane Electrics at 2015</a>;</li>
-                                            <li>Linux: OpenVPN setup;</li>
-                                            <li>Linux: Client support;</li>
-                                            <li>Windows Server: Basic deployment and configuration, Active Domain;</li>
-                                            <li>Windows: Client support;</li>
-                                            <li>Windows-to-Linux migration in production.</li>
-                                        </ul>
-                                    </li>
-                                    <li>Development skills:
-                                        <ul>
-                                            <li>Base knowlegde of C, C++, Python, Golang, Java, JavaScript;</li>
-                                            <li>Web: Valid (W3C) HTML5, CSS3, accessibility, offline applications (<a href="https://github.com/llorephie/oakjs">OakJS</a> in-progress), Twitter Bootstrap, AngularJS (beginner)</li>
-                                            <li>Desktop (crossplatform): Qt5 (C++).</li>
-                                        </ul>
-                                    </li>
+                <div class="col-sm-8">
+                    <p class="lead"><abbr title="Too long, didn't read; Слишком много текста, суть:">tl;dr</abbr>: студент, в гражданском браке, ленив, иногда зол и порой излишне самоуверен.</p>
+                    <p>Технарь, живу в Москве, в меру молчалив. С лета 2016 года примкнул к furry-фендому. <mark>Крайне ленив</mark>, и мне крайне тяжело заставить себя засесть за какое-либо дело или заказ (например, эта версия сайта выкатывась с начала
+                        августа 2017 и была закончена лишь к 7 ноября. Творческий кризис, и всё вот это вот).</p>
+                    <p>С августа 2010 года веду активную деятельность по разработке, администрированию технической части и продвижении игровых проектов для разной целевой аудитории, в настоящее время технически поддерживаю проект Guild Black Templars. В
+                        разработке (медленной, очень медленной) новостная платформа The Geek Journal</p>
+                    <p>С 2008 года по 2011 годы находился в команде разработчиков IndieGo TechLab (десктопные приложения и WEB-разработка)/GameLab (аутсорс по технической и контентной поддержке игровых проектов), команда распалась в апреле 2011 года. В настоящее
+                        время организую новую команду разработчиков <a class="text-secondary" href="//llorephie.org/">Llorephie Limited</a> - системное администрирование, аутсорс разработка приложений и вебсайтов. Так же готовится к разработке платёжный
+                        шлюз совместно с <a class="text-secondary" href="//improvy.co">Improvy</a>.</p>
+                    <p>Курю (PG/VG/Nicotine/Flavouring substance), пью (алкоголь, чай, кофе). ¯\_(ツ)_/¯</p>
+                    <p>В общении бываю довольно резок. <span class="text-muted">Я предупредил.</span></p>
+                    <hr>
+                    <blockquote class="blockquote">
+                        <p class="mb-0">Здесь может быть мнение от вас. Предложения присылать в личные сообщения.</p>
+                        <footer class="blockquote-footer">Maxim Llorephie</footer>
+                    </blockquote>
+                </div>
+            </section>
+            <section id="gallery" class="row mt-5">
+                <div class="col-sm-4">
+                    <h2 class="block-title"><span class="text-muted">#&nbsp;</span>Галерея<small class="text-muted"> (избранное)</small></h2>
+                </div>
+                <div class="col-sm-8">
+                    <div class="row justify-content-center">
+                        <div class="col-sm">
+                            <div class="mx-2 my-2 card card-photo text-white bg-dark">
+                                <a href="/main/img/gallery/moscow-2016/DSC0036.jpg" data-toggle="lightbox" data-gallery="moscow-2016">
+                                    <img src="/main/img/gallery/moscow-2016/preview.jpg" class="card-img-top" alt="Предпросмотр галереи">
+                                </a>
+                                <div data-toggle="lightbox" data-gallery="moscow-2016" data-remote="/main/img/gallery/moscow-2016/DSC0023.jpg" data-title=""></div>
+                                <div data-toggle="lightbox" data-gallery="moscow-2016" data-remote="/main/img/gallery/moscow-2016/DSC0043.jpg" data-title=""></div>
+                                <div data-toggle="lightbox" data-gallery="moscow-2016" data-remote="/main/img/gallery/moscow-2016/DSC0070.jpg" data-title=""></div>
+                                <div data-toggle="lightbox" data-gallery="moscow-2016" data-remote="/main/img/gallery/moscow-2016/DSC0189.jpg" data-title=""></div>
+                                <div data-toggle="lightbox" data-gallery="moscow-2016" data-remote="/main/img/gallery/moscow-2016/DSC_2276.jpg" data-title=""></div>
+                                <div data-toggle="lightbox" data-gallery="moscow-2016" data-remote="/main/img/gallery/moscow-2016/DSC_3012.jpg" data-title=""></div>
+                                <div data-toggle="lightbox" data-gallery="moscow-2016" data-remote="/main/img/gallery/moscow-2016/DSC_3069.jpg" data-title=""></div>
+                                <div class="card-body">
+                                    <p class="card-text">Россия, Москва, лето 2016.</p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item text-white bg-dark">Снято на Nikon D5200</li>
                                 </ul>
                             </div>
-                            <br>
-                            <span>As I've mentioned that I'm GNU/Linux user - there is my setup:</span>
-                            <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#mylinuxinfo" aria-expanded="false" aria-controls="mylinuxinfo">Show <span class="caret"></span></button>
-                            <div id="mylinuxinfo" class="collapse">
-                                <ul>
-                                    <li>Preferred distro: <abbr title="Yep, I like this distro. Lightweight, binary. I can use Gentoo, build LFS and fuck with Ubuntu and OpenSUSE, I can use Fedora as well as I can use Debian. But I like vanilla package sets, and Arch User Repository can combine all distros in one.">Arch Linux</abbr>;</li>
-                                    <li>Preferred shell: <abbr title="Or /bin/bash as well. Fish can do awesome things after install - others need configuration sets. I don't like ZSH, yep, all needed stuff I can run with bash -c ''">fish</abbr> with <a href="https://github.com/oh-my-fish/theme-cmorrell.com">cmorrell.com theme</a>                                        and with <a href="http://fisherman.sh/">fisherman</a> manager;</li>
-                                    <li>Preferred web-browser: <abbr title="Why... Not Chromium? I use it too. But only in development purposes. Mozilla Firefox is much more lightweight than Chromium (I use about 6 tabs per session, yep). Chromium has awesome web-apps, that can be integraded in system, and I use some of them. But for daytime usage I prefer Mozilla Firefox.">Mozilla Firefox</abbr>;</li>
-                                    <li>Mail-based stuff: <abbr title="'Mail clients? Are you stuck in 2004?' - Nope, it is really awesome. GPG/PGP signs, S/MIME signs, encryption, decryption, email sender validation, custom design in email... Can any webmail do this stuff? Can any webmail perform one-time check of all new mail in about 100 mailboxes?">Mozilla Thunderbird</abbr>                                        or <a href="http://www.rainloop.net/">Rainloop Mail</a> <abbr title="'But... 100 mailboxes, no?' - it supports OpenPGP via JavaScript, and all stuff is client-side. And it is open-source. I don't like it, but I have to when I'm not at home.">Web-interface</abbr></li>
-                                    <li>Preferred editor: <abbr title="In past I had to perform many operations on server via ssh. So...">vim</abbr> (vimrc: <a href="https://github.com/amix/vimrc">https://github.com/amix/vimrc</a>)/<abbr title="Why not Sublime Text? Not free, propietary and all similar shit. Yes, it is little laggy, but ok. And plugin repository is awesome.">GitHub Atom</abbr>;</li>
-                                    <li>Preferred DE: <abbr title="Lightweight, customizable. Why not Openbox, awesome or i3? They are too geeky.">xfce4</abbr>; WM: xfwm;</li>
+                        </div>
+                        <div class="col-sm">
+                            <div class="mx-2 my-2 card card-photo text-white bg-dark">
+                                <a href="/main/img/gallery/crimea-2016/DSC_0645.jpg" data-toggle="lightbox" data-gallery="crimea-2016">
+                                    <img src="/main/img/gallery/crimea-2016/preview.jpg" class="card-img-top" alt="Предпросмотр галереи">
+                                </a>
+                                <div data-toggle="lightbox" data-gallery="crimea-2016" data-remote="/main/img/gallery/crimea-2016/DSC_0556.jpg" data-title=""></div>
+                                <div data-toggle="lightbox" data-gallery="crimea-2016" data-remote="/main/img/gallery/crimea-2016/DSC_0559.jpg" data-title=""></div>
+                                <div data-toggle="lightbox" data-gallery="crimea-2016" data-remote="/main/img/gallery/crimea-2016/DSC_0655.jpg" data-title=""></div>
+                                <div data-toggle="lightbox" data-gallery="crimea-2016" data-remote="/main/img/gallery/crimea-2016/DSC_0662.jpg" data-title=""></div>
+                                <div data-toggle="lightbox" data-gallery="crimea-2016" data-remote="/main/img/gallery/crimea-2016/DSC_0674.jpg" data-title=""></div>
+                                <div data-toggle="lightbox" data-gallery="crimea-2016" data-remote="/main/img/gallery/crimea-2016/DSC_0695.jpg" data-title=""></div>
+                                <div data-toggle="lightbox" data-gallery="crimea-2016" data-remote="/main/img/gallery/crimea-2016/DSC_0698.jpg" data-title=""></div>
+                                <div data-toggle="lightbox" data-gallery="crimea-2016" data-remote="/main/img/gallery/crimea-2016/DSC_0703.jpg" data-title=""></div>
+                                <div class="card-body">
+                                    <p class="card-text">Россия, Республика Крым, октябрь 2016.</p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item text-white bg-dark">Снято на Nikon D750</li>
                                 </ul>
-
                             </div>
                         </div>
-                        <div role="tabpanel" class="tab-pane tabs_navigation" id="projects">
-                            <p class="bg-success" style="padding: 15px;">Llorephie Analytics (Powered by <a href="//piwik.org/">Piwik</a>) - Web/App analytics platform. <a class="pull-right" href="//analytics.llorephie.org/"><i class="fa fa-circle-o-notch fa-spin"></i> Access here</a></p>
-                            <p class="bg-success" style="padding: 15px;">Reanimator MCC - Website development and hosting.<a class="pull-right" href="//reanimator-mcc.ru/"><i class="fa fa-refresh fa-spin"></i> View here</a></p>
-                            <p class="bg-success" style="padding: 15px;">Guild Black Templars - Website development, system administration.<a class="pull-right" href="//guild-bt.ru/"><i class="fa fa-refresh fa-spin"></i> View here</a></p>
-                            <p class="bg-warning" style="padding: 15px;">The Elder Scrolls: Minecraft - Website development (merged with Guild Black Templars).<a class="pull-right" href="//tesmc.ru/"><i class="fa fa-refresh fa-spin"></i> View here</a></p>
-                            <p class="bg-info" style="padding: 15px;">The Geek Journal (RU) - Website development, system administration (in development).<a class="pull-right" href="//thegeekjournal.ru/"><i class="fa fa-cog fa-spin"></i> View here</a></p>
-                            <p class="bg-info" style="padding: 15px;">Oak JS - CMS, written in NodeJS (in development).<a class="pull-right" href="https://github.com/llorephie/oakjs/" style="color: inherit;"><i class="fa fa-cog fa-spin"></i> Contribute here</a></p>
-                            <p class="bg-info" style="padding: 15px;">Telegram bot (in development, closed source).<a class="pull-right" href="https://telegram.me/Llorebot"><i class="fa fa-cog fa-spin"></i> Contact here</a></p>
+                        <div class="w-100"></div>
+                        <div class="col-sm">
+                            <div class="mx-2 my-2 card card-photo text-white bg-dark">
+                                <a href="/main/img/gallery/wildfurrence-2017/DSC_2009.jpg" data-toggle="lightbox" data-gallery="wildfurrence-2017">
+                                    <img src="/main/img/gallery/wildfurrence-2017/preview.jpg" class="card-img-top" alt="Предпросмотр галереи">
+                                </a>
+                                <div data-toggle="lightbox" data-gallery="wildfurrence-2017" data-remote="/main/img/gallery/wildfurrence-2017/DSC_2015.jpg" data-title=""></div>
+                                <div data-toggle="lightbox" data-gallery="wildfurrence-2017" data-remote="/main/img/gallery/wildfurrence-2017/DSC_2020.jpg" data-title=""></div>
+                                <div data-toggle="lightbox" data-gallery="wildfurrence-2017" data-remote="/main/img/gallery/wildfurrence-2017/DSC_2057.jpg" data-title=""></div>
+                                <div data-toggle="lightbox" data-gallery="wildfurrence-2017" data-remote="/main/img/gallery/wildfurrence-2017/DSC_2076.jpg" data-title=""></div>
+                                <div data-toggle="lightbox" data-gallery="wildfurrence-2017" data-remote="/main/img/gallery/wildfurrence-2017/DSC_2102.jpg" data-title=""></div>
+                                <div data-toggle="lightbox" data-gallery="wildfurrence-2017" data-remote="/main/img/gallery/wildfurrence-2017/DSC_2106.jpg" data-title=""></div>
+                                <div data-toggle="lightbox" data-gallery="wildfurrence-2017" data-remote="/main/img/gallery/wildfurrence-2017/DSC_2121.jpg" data-title=""></div>
+                                <div data-toggle="lightbox" data-gallery="wildfurrence-2017" data-remote="/main/img/gallery/wildfurrence-2017/DSC_2124.jpg" data-title=""></div>
+                                <div data-toggle="lightbox" data-gallery="wildfurrence-2017" data-remote="/main/img/gallery/wildfurrence-2017/DSC_2130.jpg" data-title=""></div>
+                                <div data-toggle="lightbox" data-gallery="wildfurrence-2017" data-remote="/main/img/gallery/wildfurrence-2017/DSC_2135.jpg" data-title=""></div>
+                                <div data-toggle="lightbox" data-gallery="wildfurrence-2017" data-remote="/main/img/gallery/wildfurrence-2017/DSC_2168.jpg" data-title=""></div>
+                                <div class="card-body">
+                                    <p class="card-text">Россия, Ладога, Wildfurence 2017.</p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item text-white bg-dark">Снято на Nikon D750</li>
+                                </ul>
+                            </div>
                         </div>
-                        <div role="tabpanel" class="tab-pane tabs_navigation" id="feed">
-                            <p class="lead text-warning">Feed page under construction</p>
+                        <div class="col-sm">
+                            <div class="mx-2 my-2 card card-photo text-white bg-dark">
+                                <a href="/main/img/gallery/moscow-2017/DSC_1942.jpg" data-toggle="lightbox" data-gallery="moscow-2017">
+                                    <img src="/main/img/gallery/moscow-2017/preview.jpg" class="card-img-top" alt="Предпросмотр галереи">
+                                </a>
+                                <div data-toggle="lightbox" data-gallery="moscow-2017" data-remote="/main/img/gallery/moscow-2017/DSC_1852.jpg" data-title=""></div>
+                                <div data-toggle="lightbox" data-gallery="moscow-2017" data-remote="/main/img/gallery/moscow-2017/DSC_1854.jpg" data-title=""></div>
+                                <div data-toggle="lightbox" data-gallery="moscow-2017" data-remote="/main/img/gallery/moscow-2017/DSC_1874.jpg" data-title=""></div>
+                                <div data-toggle="lightbox" data-gallery="moscow-2017" data-remote="/main/img/gallery/moscow-2017/DSC_1895.jpg" data-title=""></div>
+                                <div data-toggle="lightbox" data-gallery="moscow-2017" data-remote="/main/img/gallery/moscow-2017/DSC_1897.jpg" data-title=""></div>
+                                <div data-toggle="lightbox" data-gallery="moscow-2017" data-remote="/main/img/gallery/moscow-2017/DSC_1898.jpg" data-title=""></div>
+                                <div data-toggle="lightbox" data-gallery="moscow-2017" data-remote="/main/img/gallery/moscow-2017/DSC_1899.jpg" data-title=""></div>
+                                <div data-toggle="lightbox" data-gallery="moscow-2017" data-remote="/main/img/gallery/moscow-2017/DSC_1902.jpg" data-title=""></div>
+                                <div data-toggle="lightbox" data-gallery="moscow-2017" data-remote="/main/img/gallery/moscow-2017/DSC_1913.jpg" data-title=""></div>
+                                <div data-toggle="lightbox" data-gallery="moscow-2017" data-remote="/main/img/gallery/moscow-2017/DSC_1916.jpg" data-title=""></div>
+                                <div data-toggle="lightbox" data-gallery="moscow-2017" data-remote="/main/img/gallery/moscow-2017/DSC_1921.jpg" data-title=""></div>
+                                <div data-toggle="lightbox" data-gallery="moscow-2017" data-remote="/main/img/gallery/moscow-2017/DSC_1922.jpg" data-title=""></div>
+                                <div data-toggle="lightbox" data-gallery="moscow-2017" data-remote="/main/img/gallery/moscow-2017/DSC_1924.jpg" data-title=""></div>
+                                <div data-toggle="lightbox" data-gallery="moscow-2017" data-remote="/main/img/gallery/moscow-2017/DSC_1926.jpg" data-title=""></div>
+                                <div data-toggle="lightbox" data-gallery="moscow-2017" data-remote="/main/img/gallery/moscow-2017/DSC_1935.jpg" data-title=""></div>
+                                <div data-toggle="lightbox" data-gallery="moscow-2017" data-remote="/main/img/gallery/moscow-2017/DSC_1937.jpg" data-title=""></div>
+                                <div data-toggle="lightbox" data-gallery="moscow-2017" data-remote="/main/img/gallery/moscow-2017/DSC_1938.jpg" data-title=""></div>
+                                <div data-toggle="lightbox" data-gallery="moscow-2017" data-remote="/main/img/gallery/moscow-2017/DSC_1944.jpg" data-title=""></div>
+                                <div class="card-body">
+                                    <p class="card-text">Россия, Москва, лето 2017.</p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item text-white bg-dark">Снято на Nikon D750</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
+                </div>
+            </section>
+            <section id="skills" class="row mt-5">
+                <div class="col-sm-4">
+                    <h2 class="block-title"><span class="text-muted">#&nbsp;</span>Навыки<small class="text-muted"> (те, что вспомнил)</small></h2>
+                </div>
+                <div class="col-sm-8">
+                    <ul class="list-unstyled">
+                        <li><span class="lead">Системное администрирование UNIX</span>
+                            <ul>
+                                <li>Свободное обращение с основными используемыми дистрибутивами: Debian, Ubuntu, Arch Linux, SUSE Enterprise, CentOS, Oracle Solaris, Gentoo Linux, Free/OpenBSD</li>
+                                <li>Опыт использования систем виртуализации KVM (с 2013), Xen (с 2015), Docker (с 2016)</li>
+                                <li>Сборка системы под требуемые задачи (web (LEMP, LAMP, LEAMP, proxy), vpn (OpenVPN, PPTP, L2TP), virt (virsh), embedded, thin client (PAM, AD))</li>
+                                <li>Имеется опыт перевода парка машин (750) на использование СПО в организациях</li>
+                            </ul>
+                        </li>
+                        <li><span class="lead">Web-разработка</span>
+                            <ul>
+                                <li>Вёрстка <abbr title="посадочных страниц">лендингов</abbr> в соответствии со стандартами HTML5 W3C, OpenGraph, Mozilla Developer Network.</li>
+                                <li>Создание web-интерфейсов для сервисов REST (Bootstrap + JavaScript).</li>
+                                <li>Аналитика веб-сайтов, устранение возможных векторов <abbr title="Cross Site Scripting - атака, позволяющая получить доступ к данным пользователя">XSS</abbr>, <abbr title="Вмешательство в работу сайта с целью внедрения вредоносного кода на страницу или хищения пользовательской базы данных">Injection</abbr>                                    атак.</li>
+                                <li>Создание HTML5-приложений для мобильных устройств и ПК, работающих автономно в браузере.</li>
+                                <li>Изначальное ориентирование всех разрабатываемых веб-сервисов на безопасность и соответствие стандартам Content Security Policy и на полную безопасность передачи конфиденциальных данных от устройства клиента к серверу и
+                                    обратно.
+                                </li>
+                            </ul>
+                        </li>
+                        <li><span class="lead">Прочее, с чем имел дело как разработчик</span>
+                            <ul>
+                                <li>Создание кроссплатформенных приложений с использованием Qt</li>
+                                <li>Низкоуровневая разработка для Linux (написание и портирование драйверов)</li>
+                                <li>Разработка под IoT (в данный момент работал с Raspberry Pi 2 и 3 (armv7), SIMCOM SIM800C (Embedded AT))</li>
+                                <li>Разработка REST-приложений (Golang, Python, Ruby, NodeJS)</li>
+                            </ul>
+                        </li>
+                        <li><span class="lead">Прочее</span>
+                            <ul>
+                                <li>Фотограф (любительский уровень).</li>
+                                <li>Некоторые навыки в области информационной безопасности (любительский уровень).</li>
+                                <li><strong>Не приемлю Legacy, дополнительное нацеливание на Legacy-устройства клиентов</strong>, если это влияет на время разработки и безопасность конечного решения.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section id="hire" class="row mt-5">
+                <div class="col-sm-4">
+                    <h2 class="block-title"><span class="text-muted">#&nbsp;</span>Работа <span class="badge badge-warning"><abbr title="В задании не откажу, но ввиду обстоятельств, сложившихся в данный момент в жизни - буду затягивать со сроками.">Режим слоупока</abbr></span></h2>
+                </div>
+                <div class="col-sm-8">
+                    <p class="lead">Если вы заинтересованы пригласить меня на собеседование - воспользуйтесь <button id="ParadigmBreakdown" type="button" class="btn btn-outline-secondary">этой кнопкой</button> для просмотра резюме и его последующей печати (перед печатью
+                        есть возможность убрать спорные для отдела кадров пункты. Единственная просьба - делайте это <strong>предварительно уведомив меня</strong>)
+                    </p>
+                    <ul>
+                        <li>Принимаю заказы на разработку лендингов, сайтов с динамическим содержимым (WordPress, Drupal), web-интерфейсов к приложениям.</li>
+                        <li>Настрою новый Linux-сервер для работы в организации или с конкретным приложением.</li>
+                        <li>Оказываю поддержку в обслуживании ПО сервера как разово, так и на постоянной основе.</li>
+                        <li>Принимаю заказы на разработку web и service приложений</li>
+                        <li>Могу быть выездным фотографом. Nikon D750, f: 55mm.</li>
+                    </ul>
+                </div>
+            </section>
+        </section>
+        <footer class="container footer">
+            <hr>
+            <div class="row center">
+                <div class="col-md-4">
+                    <p class="lead text-center">О сайте</p>
+                    <ul class="list-unstyled">
+                        <li>Идея и вёрстка: &copy; Maxim Llorephie</li>
+                        <li>Шрифты: Fira &copy; Mozilla</li>
+                        <li>Изображения: &copy; Maxim Llorephie</li>
+                        <li>Лицензия: <a class="text-secondary" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a>, если не указано иное (логотипы ниже: <a class="text-secondary" rel="license" href="http://creativecommons.org/publicdomain/zero/1.0/">CC0</a>)</li>
+                    </ul>
+                    <div class="row">
+                        <div class="col-6 text-center">
+                            <img src="/main/img/CR-Furry.svg" alt="Content rated: Furry" height="140" width="100" />
+                        </div>
+                        <div class="col-6 text-center">
+                            <img src="/main/img/GNU_Linux.svg" alt="GNU/Linux User Logo" height="140" width="100" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <p class="lead text-center">Обратная связь</p>
+                    <p>Социальные сети</p>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a class="text-secondary" rel="external" href="https://telegram.me/llorephie"><span class="fa fa-2x fa-telegram"></span></a></li>
+                        <li class="list-inline-item"><a class="text-secondary" rel="external" href="https://fb.me/llorephie"><span class="fa fa-2x fa-facebook-official"></span></a></li>
+                        <li class="list-inline-item"><a class="text-secondary" rel="external" href="https://vk.me/llorephie"><span class="fa fa-2x fa-vk"></span></a></li>
+                        <li class="list-inline-item"><a class="text-secondary" rel="external" href="https://linkedin.com/llorephie"><span class="fa fa-2x fa-linkedin"></span></a></li>
+                        <li class="list-inline-item"><a class="text-secondary" rel="external" href="https://plus.google.com/109301798171427328264"><span class="fa fa-2x fa-google-plus"></span></a></li>
+                        <li class="list-inline-item"><a class="text-secondary" rel="external" href="https://instagram.com/llorephie"><span class="fa fa-2x fa-instagram"></span></a></li>
+                        <li class="list-inline-item"><a class="text-secondary" rel="external" href="https://www.youtube.com/channel/UC990_iHhVlDVdxYp5u1uxsQ"><span class="fa fa-2x fa-youtube"></span></a></li>
+                        <li class="list-inline-item"><a class="text-secondary" rel="external" href="https://www.last.fm/user/Llorephie"><span class="fa fa-2x fa-lastfm"></span></a></li>
+                        <li class="list-inline-item"><a class="text-secondary" rel="external" href="https://soundcloud.com/llorephie"><span class="fa fa-2x fa-soundcloud"></span></a></li>
+                        <li class="list-inline-item"><a class="text-secondary" rel="external" href="https://github.com/llorephie"><span class="fa fa-2x fa-github"></span></a></li>
+                        <li class="list-inline-item"><a class="text-secondary" rel="external" href="https://developer.mozilla.org/ru/profiles/Llorephie"><span class="fa fa-2x fa-firefox"></span></a></li>
+                    </ul>
+                    <p>Электронная почта: <a class="text-secondary" href="mailto:feedback@llorephie.me">feedback at llorephie.me</a></p>
+                    <p>Для передачи конфиденциальной информации: <a class="text-secondary" href="/A607720D.gpg">GPG public key</a> <code>A607720D</code></p>
+                </div>
+                <div class="col-md-4">
+                    <p class="lead text-center">Навигация</p>
+                    <ul class="list-unstyled">
+                        <li><a class="text-muted" href="/blog/">Мои мысли</a></li>
+                        <li><a class="text-muted" href="/testing/">Тестовая зона</a></li>
+                        <li><a class="text-muted" href="//files.llorephie.org/">Файлопомойка</a></li>
+                        <li><a class="text-muted" href="//mirror.llorephie.org/">Зеркало репозиториев для Linux-дистрибутивов</a></li>
+                        <li><a class="text-muted" href="//llorephie.org/">Llorephie TechLab</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Markup for printable page (not visible in browser) -->
+    <div id="printable" class="d-print-block">
+        <div class="alert alert-secondary d-print-none" role="alert">
+            Вернуться на основную версию сайта можно нажав на <button id="ParadigmRestoration" type="button" class="btn btn-outline-secondary">эту кнопку</button>. Или, если я могу быть полезен вашей компании - вы можете <a class="btn btn-outline-secondary"
+                href="javascript:print()">распечатать это резюме</a> (при наличии спорных для отдела кадров элементов в резюме - их можно скрыть по нажатию на "&times;")
+        </div>
+        <div class="alert alert-danger" role="alert">
+            Резюме в данный момент находится в стадии доработки и доступно <strong>исключительно в ознакомительных целях</strong>.
+        </div>
+        <div class="container">
+            <div class="card text-center">
+                <div class="card-header">
+                    Мартьянов Максим Владимирович &middot; Дата рождения: 31 января 1999 &middot; <a href="mailto:hire@llorephie.org">hire@llorephie.org</a> &middot; <a href="tel:+79776065931">+79776065931</a>
+                </div>
+                <div class="card-body">
+                    <h4 class="card-title">Москва, Российская Федерация</h4>
+                    <p class="card-text">Системный администратор UNIX, разработчик (WEB, Unix, Mobile).</p>
+                    <p class="card-text">Среднее полное образование (2016), неоконченное высшее (Московский Технологический Университет (МИРЭА), программная инженерия, бакалавр) (2020)</p>
+                    <img src="/main/img/llorephie-face.jpg" class="rounded mx-auto d-block" alt="Фотография" width="200" height="245">
+                </div>
+                <div class="card-footer text-muted">
+                    Резюме для отдела кадров
+                </div>
+            </div>
+            <div id="hirelist" class="row">
+                <div class="col-md-6">
+                    <h3>Публичные проекты</h3>
+                    <div class="list-group">
+                        <a href="https://github.com/llorephie/Llorebot" class="list-group-item list-group-item-action flex-column align-items-start">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Llorebot &middot; Бот для Telegram</h5>
+                                <small class="text-info">В разработке</small>
+                            </div>
+                            <p class="mb-1">Курсы валют, погода, модерирование чатов.</p>
+                            <small class="text-muted">Исходный код доступен на Github: https://github.com/llorephie/Llorebot</small>
+                        </a>
+                        <a href="https://github.com/llorephie/oakjs" class="list-group-item list-group-item-action flex-column align-items-start">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Oak &middot; CMS для новостного портала The Geek Journal</h5>
+                                <small class="text-info">В разработке</small>
+                            </div>
+                            <p class="mb-1">Авторизация, подготовка публикаций, RSS-лента.</p>
+                            <small class="text-muted">Исходный код доступен на Github: https://github.com/llorephie/oakjs</small>
+                        </a>
+                        <a href="https://guild-bt.ru" class="list-group-item list-group-item-action flex-column align-items-start">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Guild Black Templars &middot; Full-stack поддержка</h5>
+                                <small class="text-success">Работает</small>
+                            </div>
+                            <ul>
+                                <li>Системное администрирование 9 серверов Linux (Arch Linux, Ubuntu, Debian) и KVM</li>
+                                <li>Поддержка и настройка DNS сервера</li>
+                                <li>Поддержка и настройка IRC сервера (ngircd)</li>
+                                <li>Разработка сайта (HTML5, CSS, JavaScript, PHP, SSI)</li>
+                                <li>Поддержка и настройка веб-сервера (NGINX, PHP7-fpm, Elasticsearch, Memcached, Redis)</li>
+                                <li>Поддержка форума (XenForo + Elasticsearch + Memcached, HHVM)</li>
+                                <li>Поддержка почтового сервера (Dovecot, Postfix)</li>
+                                <li>Поддержка VPN сервера IPv4/IPv6 (OpenVPN)</li>
+                                <li>SEO-оптимизация и аналитика (Open Source Piwik Analytics Platform)</li>
+                            </ul>
+                            <small class="text-muted">Рабочий проект, можно посмотреть на https://guild-bt.ru/</small>
+                        </a>
+                        <a href="https://thegeekjournal.ru" class="list-group-item list-group-item-action flex-column align-items-start">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">The Geek Journal &middot; СМИ</h5>
+                                <small class="text-info">В разработке</small>
+                            </div>
+                            <p class="mb-1">Новостное издание, тематика: информационные технологии и регулирование IT сферы.</p>
+                            <small class="text-muted">В данный момент в разработке, запуск после готовности OakJS. https://thegeekjournal.ru</small>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h3>Желаемые требования к рабочему месту</h3>
+                    <ul>
+                        <li>Гибкий график (возможна удалённая работа)</li>
+                        <li>Полный рабочий день</li>
+                        <li>Максимальное время в пути до места работы: 1 час 30 минут от станции метро Ясенево</li>
+                        <li>Редкие или непродолжительные (не более недели) командировки</li>
+                        <li>Чёрная или серая зарплата <span class="text-muted">(отчисления в пенсионный фонд и ФНС меня мало интересуют, если требуется официальное оформление - никаких проблем, если есть возможность выдавать зарплату мимо основной бухгалтерии - буду рад)</span>
+                    </ul>
+                    <h3>Основные навыки</h3>
+                    <ul>
+                        <li>Языки: русский <span class="text-muted">(родной)</span>, английский <span class="text-muted">(уверенное поддержание разговора в текстовой форме и свободное чтение, в том числе технической документации, литературный перевод; речь - медленная и сбивчивая)</span></li>
+                        <li>GNU/Linux: веб-серверы (NGINX, Apache, Lighthttpd), DNS-серверы, IRC, VPN-серверы (OpenVPN, L2TP, PPTP), виртуализация (Xen, KVM, Docker cgroups), свободная работа с RedHat Linux-based, Debian-based, Gentoo-based, Arch Linux-based,
+                            LFS, Solaris, OpenBSD.</li>
+                        <li>Microsoft: Windows Desktop (введение в AD, администрирование), Windows Server (администрирование), Azure (разработка и развёртывание), Power BI</li>
+                        <li>Сети: IPv4/IPv6 маршрутизация <span class="text-muted">(сертифицирован Hurricane Electrics: <a href="https://ipv6.he.net/certification/scoresheet.php?pass_name=llorephie">https://ipv6.he.net/certification/scoresheet.php?pass_name=llorephie</a>)</span>,
+                            802.11s (Mesh)</li>
+                        <li>Программирование: C, Golang, Ruby (базовые знания), Bash, Python, NodeJS, PHP</li>
+                        <li>Веб-разработка: HTML5 (W3C standarts), SSI</li>
+                    </ul>
+                    <h3>Личные качества</h3>
+                    <ul>
+                        <li>Стрессоустойчивость</li>
+                        <li>Соблюдение субординации</li>
+                        <li class="text-danger"><u>Пунктуальность отсутствует, могу работать только по устоявшемуся графику</u> <span class="text-muted">(не способен быстро адаптироваться к изменениям в расписании или срочно выезжать куда бы то ни было)</span></li>
+                        <li>Быстрая обучаемость</li>
+                        <li>Могу послать в пешее эротическое при навязчивых попытках добавить мне дополнительной работы, которая не входит в мои прямые обязанности по договору</li>
+                        <li>Курю</li>
+                        <li>Пристрастия к алкоголю не наблюдается</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
-    <footer class="footer navbar-fixed-bottom">
-        <div class="container hidden-print">
-            <span class="text-muted">&copy; Maxim Llorephie 2016. Published under <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons «Attribution-ShareAlike» 4.0 Worldwide</a>.</span>
-        </div>
-        <div class="container visible-print-inline">
-            <span class="text-muted">&copy; Nickolay Martyanov. Last updated: June 11, 2016 on https://llorephie.org</span>
-        </div>
-    </footer>
 
-    <script src="/main/js/jquery.min.js"></script>
-    <script src="/main/js/main.js"></script>
-    <script src="/main/js/bootstrap.min.js"></script>
-    <!-- Third-party scripts.
- =================================================================== -->
-    <!-- Piwik {literal} -->
-    <script src="/main/js/piwikLlorephie.js"></script>
-    <noscript>
-        <div>
-            <img src="//analytics.llorephie.org/piwik.php?idsite=1" style="border:0;" alt="" />
-        </div>
-    </noscript>
-    <!-- {/literal} End Piwik Code -->
+    <!-- JavaScript -->
+    <script type="text/javascript" src="/main/js/jquery-3.2.1.slim.min.js"></script>
+    <script type="text/javascript" src="/main/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="/main/js/ekko-lightbox.min.js"></script>
+    <script type="text/javascript" src="/main/js/main.js" async></script>
 </body>
-
-</html>
