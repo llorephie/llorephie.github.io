@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem 'github-pages'
+gem 'jekyll'
 
 # Jekyll Bootstrap theme by Llorephie.
 gem "jekyll-bootstrap"
