@@ -1,0 +1,18 @@
+title: Максим @Llorephie Мартьянов
+author: Максим @Llorephie Мартьянов
+email: web@llorephie.me
+lang: ru-RU
+description: Мысли одного девопса-распиздяя.
+url: "https://llorephie.me" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: llorephie
+github_username:  llorephie
+
+# Build settings
+markdown: kramdown
+theme: jekyll-bootstrap
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+
+sass:
+    style: compressed

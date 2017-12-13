@@ -1,11 +1,11 @@
 @font-face {
     font-family: "FiraSans-Regular";
-    src: url('/main/fonts/FiraSans-Regular.woff2');
+    src: url('/assets/fonts/FiraSans-Regular.woff2');
 }
 
 @font-face {
     font-family: "FiraMono-Regular";
-    src: url('/main/fonts/FiraMono-Regular.woff2');
+    src: url('/assets/fonts/FiraMono-Regular.woff2');
 }
 
 html {
@@ -27,25 +27,25 @@ body {
 }
 
 .night {
-    background-image: url("/main/img/overlay-night.jpg");
+    background-image: url("/assets/img/overlay-night.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .evening {
-    background-image: url("/main/img/overlay-evening.jpg");
+    background-image: url("/assets/img/overlay-evening.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .morning {
-    background-image: url("/main/img/overlay-morning.jpg");
+    background-image: url("/assets/img/overlay-morning.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .daytime {
-    background-image: url("/main/img/overlay-daytime.jpg");
+    background-image: url("/assets/img/overlay-daytime.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }

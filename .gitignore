@@ -1,3 +1,7 @@
-# Ignore playground
-testing/
-tools/
+# Jekyll-related gitignore
+*.gem
+.bundle
+.sass-cache
+_site
+Gemfile.lock
+

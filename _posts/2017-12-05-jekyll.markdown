@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Hello, World! Снова..."
+date:   2017-12-05 00:07:48 +0300
+categories: update
+---
+Немного подупоролся и перевёл блог с WordPress на Jekyll. Попробую сейчас оперативно сконвертировать старые записи.
+Коротко о переносе:
+* Тему пришлось писать самостоятельно (Bootstrap на Jekyll не нашёл), кому нужно - [jekyll-bootstrap](https://github.com/llorephie/jekyll-bootstrap)
+* Теперь есть резервирование постов блога и основного сайта. Смотреть здесь: [llorephie.github.io](https://github.com/llorephie/llorephie.github.io)
+* Теперь все посты придётся переводить в Markdown с WordPress. Ну ой =.=
