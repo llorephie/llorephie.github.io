@@ -10,6 +10,7 @@ github_username:  llorephie
 # Build settings
 markdown: kramdown
 theme: jekyll-bootstrap
+remote_theme: llorephie/jekyll-bootstrap
 plugins:
   - jekyll-feed
   - jekyll-paginate
