@@ -15,6 +15,7 @@ remote_theme: llorephie/jekyll-bootstrap
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-seo-tag
 
 sass:
     style: compressed
