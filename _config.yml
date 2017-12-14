@@ -1,10 +1,10 @@
+# Default Jekyll variables
 title: Максим @Llorephie Мартьянов
 author: Максим @Llorephie Мартьянов
 email: web@llorephie.me
 lang: ru-RU
 description: Мысли одного девопса-распиздяя.
-baseurl: ""
-url: "https://llorephie.me" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://llorephie.me"
 twitter_username: llorephie
 github_username:  llorephie
 
