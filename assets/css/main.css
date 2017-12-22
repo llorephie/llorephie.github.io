@@ -50,22 +50,19 @@ body {
     background-size: cover;
 }
 
-
-#printable {
-    width: auto;
-    border: 0;
-    margin: 0 5%;
-    padding: 0;
-    float: none !important;
-}
-
-#hirelist {
-    padding-top: 1rem;
-}
-
 footer {
     padding-bottom: 5rem;
 }
+
 a:hover.footer {
     border-bottom: 1px dotted;
+}
+
+/*
+ * Styles for in-browser preview of printable part of webpage.
+ *
+ */
+.print-page-preview {
+    width: 210mm;
+    height: 297mm;
 }

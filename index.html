@@ -268,7 +268,7 @@
             </section>
             <section id="hire" class="row mt-5">
                 <div class="col-sm-4">
-                    <h2 class="block-title"><span class="text-muted">#&nbsp;</span>Работа <span class="badge badge-warning"><abbr title="В задании не откажу, но ввиду обстоятельств, сложившихся в данный момент в жизни - буду затягивать со сроками.">Режим слоупока</abbr></span></h2>
+                    <h2 class="block-title"><span class="text-muted">#&nbsp;</span>Работа <span class="badge badge-success"><abbr title="Резюме подготовлено, ищу работу.">Свободен</abbr></span></h2>
                 </div>
                 <div class="col-sm-8">
                     <p class="lead">Если вы заинтересованы пригласить меня на собеседование - воспользуйтесь <button id="ParadigmBreakdown" type="button" class="btn btn-outline-secondary">этой кнопкой</button> для просмотра резюме и его последующей печати (перед печатью
@@ -337,111 +337,160 @@
         </footer>
     </div>
 
+
+
+
+
+
+
+
+
+
     <!-- Markup for printable page (not visible in browser) -->
     <div id="printable" class="d-print-block">
         <div class="alert alert-secondary d-print-none" role="alert">
             Вернуться на основную версию сайта можно нажав на <button id="ParadigmRestoration" type="button" class="btn btn-outline-secondary">эту кнопку</button>. Или, если я могу быть полезен вашей компании - вы можете <a class="btn btn-outline-secondary"
-                href="javascript:print()">распечатать это резюме</a> (при наличии спорных для отдела кадров элементов в резюме - их можно скрыть по нажатию на "&times;")
+                href="javascript:print()">распечатать это резюме (адаптировано только под Firefox Gecko)</a>
         </div>
-        <div class="alert alert-danger" role="alert">
-            Резюме в данный момент находится в стадии доработки и доступно <strong>исключительно в ознакомительных целях</strong>.
-        </div>
-        <div class="container">
-            <div class="card text-center">
-                <div class="card-header">
-                    Мартьянов Максим Владимирович &middot; Дата рождения: 31 января 1999 &middot; <a href="mailto:hire@llorephie.org">hire@llorephie.org</a> &middot; <a href="tel:+79776065931">+79776065931</a>
+        <section class="container-fluid">
+            <div class="print-page-preview">
+                <div class="mt-5"></div>
+                <div class="mt-5"></div>
+                <div class="card text-center">
+                    <div class="card-header">
+                        Мартьянов Максим Владимирович &middot; Дата рождения: 31 января 1999 &middot; <a href="mailto:hire@llorephie.me">hire@llorephie.me</a> &middot; <a href="tel:+79776065931">+79776065931</a>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Москва, Российская Федерация</h4>
+                        <p class="card-text">Системный администратор, разработчик</p>
+                        <p class="card-text">Среднее полное образование (2016), неоконченное высшее (Московский Технологический Университет (МИРЭА), программная инженерия, бакалавр) (2022)</p>
+                        <img src="/assets/img/llorephie-face.jpg" class="img-thumbnail mx-auto" alt="Фотография" width="200" height="235">
+                    </div>
+                    <div class="card-footer text-muted">
+                        Резюме для отдела кадров
+                    </div>
                 </div>
-                <div class="card-body">
-                    <h4 class="card-title">Москва, Российская Федерация</h4>
-                    <p class="card-text">Системный администратор UNIX, разработчик (WEB, Unix, Mobile).</p>
-                    <p class="card-text">Среднее полное образование (2016), неоконченное высшее (Московский Технологический Университет (МИРЭА), программная инженерия, бакалавр) (2020)</p>
-                    <img src="/assets/img/llorephie-face.jpg" class="rounded mx-auto d-block" alt="Фотография" width="200" height="245">
+                <div class="mt-5"></div>
+                <div class="mt-5"></div>
+                <div class="page-block">
+                    <h2>Основные сведения</h2>
+                    <ul>
+                        <li>Языки: русский <span class="text-muted">(родной)</span>, английский <span class="text-muted">(уверенное поддержание разговора в текстовой форме и свободное чтение, в том числе технической документации, литературный перевод; речь - медленная и сбивчивая)</span></li>
+                        <li>Сертификаты: Hurricane Electrics (принцип работы IPv6, маршрутизация, применение): https://ipv6.he.net/certification/scoresheet.php?pass_name=llorephie</li>
+                        <li>Образование: среднее полное, высшее неоконченное (бакалавриат, 2 курс)</li>
+                    </ul>
+                    <h4>Основные технические навыки (работаю с этим постоянно)</h4>
+                    <ul>
+                        <li>Веб-серверы (NGINX, Apache httpd, Microsoft IIS, Apache Tomcat)</li>
+                        <li>OpenVPN - dual-stack, интеграция с дополнительными пространствами адресов, TLS-авторизация, LDAP авторизация</li>
+                        <li>Почтовые сервисы: Dovecot/Postfix + OpenDKIM + OpenDMARC, pam/ldap авторизация</li>
+                        <li>DNS - dnsmasq, Zeroconf</li>
+                        <li>Виртуализация: KVM, Xen, Docker, VMWare, Hyper-V</li>
+                        <li>Свободная работа с RedHat-based, Debian-based, Gentoo-based, Arch Linux-based дистрибутивами, Oracle Solaris, OpenBSD</li>
+                        <li>Программирование: Python, Golang, C</li>
+                        <li>Веб-разработка: HTML5 (W3C-complain), SSI (Server-side includes)</li>
+                    </ul>
+                    <h4>Дополнительные технические навыки (требуется применять для решения возникающих задач)</h4>
+                    <ul>
+                        <li>Программирование: Rust, Ruby, Java, Scala, Bash, Python, NodeJS, PHP</li>
+                        <li>Системы автоматизации сборки: Apache Maven, Gradle, npm, Rake</li>
+                        <li>Системы контроля версий: Subversion, Git, Mercurial, Bazaar</li>
+                        <li>Системы интеграции и сборки: Gitlab, TeamCity, Jenkins</li>
+                        <li>Web: Развёртывание и адаптация проектов, CMS, разработка API, балансировка нагрузки</li>
+                        <li>Подбор программного обеспечения для решения требуемых задач с целью оптимизации расходов/доступности к использованию</li>
+                        <li>LDAP - настройка, интеграция</li>
+                        <li>Внесение правок в существующие технические процессы с целью устранения потенциальных уязвимостей или с целью оптимизации под универсальное применение</li>
+                        <li>Microsoft: Windows Desktop (введение в AD, администрирование), Windows Server (администрирование, AD), Azure (разработка приложений с использованием Azure Cloud и развёртывание их, Active Domain Directory), Power BI (интеграция)</li>
+                        <li>Введение Linux-клиентов в Active Directory (Kerberos/Samba)</li>
+                        <li>Atlassian JIRA, Confluence (базовая настройка и интеграция)</li>
+                    </ul>
+                    <h4>Желаемые требования к рабочему месту</h4>
+                    <ul>
+                        <li>Полный рабочий день</li>
+                        <li>Максимальное время в пути до места работы: 1 час 30 минут от станции метро Ясенево</li>
+                        <li>Редкие или непродолжительные (не более двух недель) командировки</li>
+                        <li>Зарплата от 60000 российских рублей</li>
+                    </ul>
+                    <h4>Дополнительные сведения</h4>
+                    <ul>
+                        <li>Стрессоустойчивость</li>
+                        <li>Быстрая обучаемость и готовность к обучению</li>
+                    </ul>
                 </div>
-                <div class="card-footer text-muted">
-                    Резюме для отдела кадров
-                </div>
-            </div>
-            <div id="hirelist" class="row">
-                <div class="col-md-6">
-                    <h3>Публичные проекты</h3>
+                <div class="page-block">
+                    <h2>Дополнительно: публичные проекты</h2>
+                    <p class="lead">Реализованы мной или при моём участии</p>
+                    <p>Примечание: в этот перечень не включены оффлайн-заказы или продукты не для общего пользования. По перечисленному ниже есть прямое разрешение предоставить подробное техническое описание, использованные технологии и планы по развитию. По остальным работам, которые я выполнял, спрашивать лично.</p>
                     <div class="list-group">
-                        <a href="https://github.com/llorephie/Llorebot" class="list-group-item list-group-item-action flex-column align-items-start">
-                            <div class="d-flex w-100 justify-content-between">
-                                <h5 class="mb-1">Llorebot &middot; Бот для Telegram</h5>
-                                <small class="text-info">В разработке</small>
-                            </div>
-                            <p class="mb-1">Курсы валют, погода, модерирование чатов.</p>
-                            <small class="text-muted">Исходный код доступен на Github: https://github.com/llorephie/Llorebot</small>
-                        </a>
-                        <a href="https://github.com/llorephie/oakjs" class="list-group-item list-group-item-action flex-column align-items-start">
-                            <div class="d-flex w-100 justify-content-between">
-                                <h5 class="mb-1">Oak &middot; CMS для новостного портала The Geek Journal</h5>
-                                <small class="text-info">В разработке</small>
-                            </div>
-                            <p class="mb-1">Авторизация, подготовка публикаций, RSS-лента.</p>
-                            <small class="text-muted">Исходный код доступен на Github: https://github.com/llorephie/oakjs</small>
-                        </a>
                         <a href="https://guild-bt.ru" class="list-group-item list-group-item-action flex-column align-items-start">
                             <div class="d-flex w-100 justify-content-between">
-                                <h5 class="mb-1">Guild Black Templars &middot; Full-stack поддержка</h5>
+                                <h5 class="mb-1">Guild Black Templars <span class="badge badge-secondary">Поддержка</span></h5>
                                 <small class="text-success">Работает</small>
                             </div>
-                            <ul>
-                                <li>Системное администрирование 9 серверов Linux (Arch Linux, Ubuntu, Debian) и KVM</li>
-                                <li>Поддержка и настройка DNS сервера</li>
-                                <li>Поддержка и настройка IRC сервера (ngircd)</li>
-                                <li>Разработка сайта (HTML5, CSS, JavaScript, PHP, SSI)</li>
-                                <li>Поддержка и настройка веб-сервера (NGINX, PHP7-fpm, Elasticsearch, Memcached, Redis)</li>
-                                <li>Поддержка форума (XenForo + Elasticsearch + Memcached, HHVM)</li>
-                                <li>Поддержка почтового сервера (Dovecot, Postfix)</li>
-                                <li>Поддержка VPN сервера IPv4/IPv6 (OpenVPN)</li>
-                                <li>SEO-оптимизация и аналитика (Open Source Piwik Analytics Platform)</li>
-                            </ul>
+                            <h6>DevOps</h6>
+                            <p class="mb-1">Полное системное администрирование (виртуализация KVM, веб-верверы, DNS, почта), программирование (Java, Scala, PHP, Golang, NodeJS, Python).</p>
                             <small class="text-muted">Рабочий проект, можно посмотреть на https://guild-bt.ru/</small>
                         </a>
                         <a href="https://thegeekjournal.ru" class="list-group-item list-group-item-action flex-column align-items-start">
                             <div class="d-flex w-100 justify-content-between">
-                                <h5 class="mb-1">The Geek Journal &middot; СМИ</h5>
+                                <h5 class="mb-1">The Geek Journal <span class="badge badge-info">Свой проект</span></h5>
                                 <small class="text-info">В разработке</small>
                             </div>
+                            <h6>Владелец, разработчик</h6>
                             <p class="mb-1">Новостное издание, тематика: информационные технологии и регулирование IT сферы.</p>
                             <small class="text-muted">В данный момент в разработке, запуск после готовности OakJS. https://thegeekjournal.ru</small>
                         </a>
+                        <a href="https://llorephie.org" class="list-group-item list-group-item-action flex-column align-items-start">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Llorephie TechLab <span class="badge badge-primary">Команда разработки</span></h5>
+                                <small class="text-primary">Постоянный проект</small>
+                            </div>
+                            <h6>Владелец</h6>
+                            <p class="mb-1">Команда разработчиков (Mobile/Desktop/Embedded), системных администраторов (Windows/UNIX). Как владелец выполняю приём и выполнение заказов на обслуживание серверов и рабочих станций, разработку ПО и внедрения нового программного
+                                обеспечения в организации.</p>
+                            <small class="text-muted">Постоянный собственный проект. https://llorephie.org/</small>
+                        </a>
+                        <a href="http://www.bellequipment.ru/" class="list-group-item list-group-item-action flex-column align-items-start">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Bell Equipment <span class="badge badge-warning">Разовое техобслуживание</span></h5>
+                                <small class="text-primary">Завершено</small>
+                            </div>
+                            <h6>Информационая безопасность, системное администрирование, SEO recovery</h6>
+                            <p class="mb-1">Восстановление сайта на WordPress после заражения, восстановление из стоп-листов поисковых систем, перенос на выделенный сервер с полной настройкой и с внесением правок в сайт для адаптации работы в новом окружении. Разовый
+                                комплекс работ по техническому обслуживанию.</p>
+                            <small class="text-muted">Техническая поддержка предоставлялась разово. http://www.bellequipment.ru/</small>
+                        </a>
+                        <a href="https://github.com/llorephie/Llorebot" class="list-group-item list-group-item-action flex-column align-items-start">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Llorebot <span class="badge badge-info">Свой проект</span></h5>
+                                <small class="text-info">В разработке</small>
+                            </div>
+                            <h6>Бот для Telegram</h6>
+                            <p class="mb-1">В разработке используется Golang. Имеет сквозную интеграцию Bot API с General API для сканирования каналов и получения расширенных данных о пользователях.</p>
+                            <small class="text-muted">Исходный код доступен на Github: https://github.com/llorephie/Llorebot.git</small>
+                        </a>
+                        <a href="https://github.com/llorephie/oakjs" class="list-group-item list-group-item-action flex-column align-items-start">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">OakJS <span class="badge badge-info">Свой проект</span></h5>
+                                <small class="text-info">В разработке</small>
+                            </div>
+                            <h6>Система управления контентом (CMS)</h6>
+                            <p class="mb-1">Авторизация, подготовка публикаций, RSS-лента.</p>
+                            <small class="text-muted">Исходный код доступен на Github: https://github.com/llorephie/oakjs.git</small>
+                        </a>
+                        <a href="https://github.com/llorephie/monitoring-dash" class="list-group-item list-group-item-action flex-column align-items-start">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">monitoring-dash <span class="badge badge-info">Свой проект</span></h5>
+                                <small class="text-info">В разработке</small>
+                            </div>
+                            <h6>Интегрируемая система мониторинга.</h6>
+                            <p class="mb-1">Серверная часть - Golang, клиентская часть - HTML5/JavaScript, поддерживаются мобильные устройства.</p>
+                            <small class="text-muted">Исходный код доступен на Github: https://github.com/llorephie/monitoring-dash.git</small>
+                        </a>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <h3>Желаемые требования к рабочему месту</h3>
-                    <ul>
-                        <li>Гибкий график (возможна удалённая работа)</li>
-                        <li>Полный рабочий день</li>
-                        <li>Максимальное время в пути до места работы: 1 час 30 минут от станции метро Ясенево</li>
-                        <li>Редкие или непродолжительные (не более недели) командировки</li>
-                        <li>Чёрная или серая зарплата <span class="text-muted">(отчисления в пенсионный фонд и ФНС меня мало интересуют, если требуется официальное оформление - никаких проблем, если есть возможность выдавать зарплату мимо основной бухгалтерии - буду рад)</span>
-                    </ul>
-                    <h3>Основные навыки</h3>
-                    <ul>
-                        <li>Языки: русский <span class="text-muted">(родной)</span>, английский <span class="text-muted">(уверенное поддержание разговора в текстовой форме и свободное чтение, в том числе технической документации, литературный перевод; речь - медленная и сбивчивая)</span></li>
-                        <li>GNU/Linux: веб-серверы (NGINX, Apache, Lighthttpd), DNS-серверы, IRC, VPN-серверы (OpenVPN, L2TP, PPTP), виртуализация (Xen, KVM, Docker cgroups), свободная работа с RedHat Linux-based, Debian-based, Gentoo-based, Arch Linux-based,
-                            LFS, Solaris, OpenBSD.</li>
-                        <li>Microsoft: Windows Desktop (введение в AD, администрирование), Windows Server (администрирование), Azure (разработка и развёртывание), Power BI</li>
-                        <li>Сети: IPv4/IPv6 маршрутизация <span class="text-muted">(сертифицирован Hurricane Electrics: <a href="https://ipv6.he.net/certification/scoresheet.php?pass_name=llorephie">https://ipv6.he.net/certification/scoresheet.php?pass_name=llorephie</a>)</span>,
-                            802.11s (Mesh)</li>
-                        <li>Программирование: C, Golang, Ruby (базовые знания), Bash, Python, NodeJS, PHP</li>
-                        <li>Веб-разработка: HTML5 (W3C standarts), SSI</li>
-                    </ul>
-                    <h3>Личные качества</h3>
-                    <ul>
-                        <li>Стрессоустойчивость</li>
-                        <li>Соблюдение субординации</li>
-                        <li class="text-danger"><u>Пунктуальность отсутствует, могу работать только по устоявшемуся графику</u> <span class="text-muted">(не способен быстро адаптироваться к изменениям в расписании или срочно выезжать куда бы то ни было)</span></li>
-                        <li>Быстрая обучаемость</li>
-                        <li>Могу послать в пешее эротическое при навязчивых попытках добавить мне дополнительной работы, которая не входит в мои прямые обязанности по договору</li>
-                        <li>Курю</li>
-                        <li>Пристрастия к алкоголю не наблюдается</li>
-                    </ul>
-                </div>
             </div>
-        </div>
+        </section>
     </div>
 
     <!-- JavaScript -->
