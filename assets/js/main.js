@@ -32,16 +32,14 @@ $('#ParadigmBreakdown').click(function() {
     // Hide content of browser-rendered page...
     $("#notprintable").addClass("d-none");
     // ...and show printable page.
-    $("#printable").removeClass("d-print-block");
-    $("#printable").addClass("d-block");
+    $("#printable").removeClass("d-none");
 });
 
 $('#ParadigmRestoration').click(function() {
     // Hide content of printable page...
     $("#notprintable").removeClass("d-none");
     // ...and show browser-rendered page.
-    $("#printable").removeClass("d-block");
-    $("#printable").addClass("d-print-block");
+    $("#printable").addClass("d-none");
 });
 
 // Navigation bar should be always be visible.
