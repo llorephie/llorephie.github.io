@@ -31,38 +31,3 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-.evening {
-    background-image: url("/assets/img/overlay-evening.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.morning {
-    background-image: url("/assets/img/overlay-morning.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.daytime {
-    background-image: url("/assets/img/overlay-daytime.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-footer {
-    padding-bottom: 5rem;
-}
-
-a:hover.footer {
-    border-bottom: 1px dotted;
-}
-
-/*
- * Styles for in-browser preview of printable part of webpage.
- *
- */
-.print-page-preview {
-    width: 210mm;
-    height: 297mm;
-}
